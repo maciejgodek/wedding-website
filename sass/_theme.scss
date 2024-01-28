@@ -1,0 +1,47 @@
+$foreground: #9e9e9e;
+$background: #dbebd1;
+$secondary: gray;
+$tertiary: #dddddd;
+$accent: #343832;
+
+@mixin light-theme {
+  color: $foreground;
+  background-color: $background;
+
+  .secondary {
+    color: $secondary;
+  }
+
+  a,
+  a:link,
+  a:visited {
+    color: $accent;
+  }
+
+  a:hover {
+    color: darken($accent, 30%);
+  }
+
+  blockquote {
+    border-left: 2px solid $secondary;
+  }
+
+  code {
+    background-color: $tertiary;
+  }
+
+  pre code {
+    background-color: transparent;
+  }
+
+  .footnote-definition sup {
+    color: $secondary;
+  }
+}
+
+
+body {
+  @include light-theme;
+}
+
+
