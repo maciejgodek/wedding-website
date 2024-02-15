@@ -24,7 +24,7 @@
     <div class="container">
         <header> 
             <h1 class="site-header">
-                <a href="{{ config.base_url }}">{{ config.title }}</a>
+                <a href="{{ get_url(path="@/_index.md", lang=lang) }}">{{ config.title }}</a>
             </h1>
             <nav>
                 {% block sidebar_nav %}
