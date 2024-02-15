@@ -1,4 +1,4 @@
 +++
 slug = "rsvp"
-redirect_to = "https://forms.gle/VSNpDzcXSiszEvBz7"
+redirect_to = "https://forms.gle/JjqumVFejtciiWWZ7"
 +++
