@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://jessa-maciek-2024.pl/sitemap.xml
